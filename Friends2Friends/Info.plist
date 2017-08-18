@@ -28,11 +28,23 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key><true/>
+    </dict>
+    <key>NSCameraUsageDescription</key>
+    <string>This app requires access to the camera.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Friends2Friends needs access to location services to allow maps to determine your current location and to track your current location.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Friends2Friends needs access to location services to allow maps to determine your current location and to track your current location.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app requires access to the photo library.</string>
 </dict>
 </plist>
